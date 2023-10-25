@@ -1,5 +1,6 @@
 
 .nav-bar{
+<<<<<<< Updated upstream
 display: flex;
 position: fixed;
 top: 0;
@@ -12,6 +13,21 @@ font-family: Poppins;
 font-size: 12px;
 font-style: normal;
 font-weight: 400; 
+=======
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    height: 64px;
+    color: #1F384C;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400; 
+    background-color: white;
+    margin-bottom: 10px;
+>>>>>>> Stashed changes
 }
 .nav-img img {
     height: 36px;
@@ -66,10 +82,206 @@ nav-img{
     margin-top: 4px;
 }
 .side-bar {
+<<<<<<< Updated upstream
     width: 64px;
     height: 450px;
     background-color: darkgray;
 }
 main {
     margin-top: 120px;
+=======
+    width: 240px;
+    height: 1486px;
+    background-color: #0100390A;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    position: relative;
+}
+.menu{
+    color: #082431;
+    font-size: 11px;
+    margin-left: 24px;
+    opacity: 0.5;
+    margin-top: 32px;
+    margin-bottom: 26px;
+}
+.dashboard{
+    font-size: 16px; 
+    font-weight: 500;
+    background-color: #50417833;
+    border-radius: 10px;
+    width: 174px;
+    height: 40px;
+    padding-top: 25px; 
+    text-align: center;
+    color: #504178;
+    margin-left: 24px;
+}
+.order{
+    margin-top: 24px;
+    display: flex;
+    color: #767D87;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 24px;
+}
+.order p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+}
+.report{
+    margin-left: 24px;
+    color: #767D87;
+    margin-top: 24px;
+}
+.report a{
+    color: #767D87;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.shipping{
+    margin-left: 24px;
+    color: #767D87;
+    margin-top: 24px;
+}
+.shipping a{
+    color: #767D87;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.maintenance{
+    margin-left: 24px;
+    color: #767D87;
+    margin-top: 24px;
+}
+.maintenance a{
+    color: #767D87;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.system{
+    margin-top: 40px;
+    margin-left: 36px;
+    margin-bottom: 26px;
+    color: #082431;
+    font-size: 11px;
+    opacity: 0.5;
+}
+.data{
+    display: flex;
+    margin-left: 24px;
+    color: #767D87; 
+    margin-bottom: 24px;
+}
+.data p{
+    margin-right: 12px;
+}
+.user, .role{
+    margin-left: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #767D87;
+    margin-bottom: 24px;
+}
+.user a, .role a{
+    text-decoration: none;
+    color: #767D87; 
+    margin-left: 12px;
+}
+main{
+    margin-left: 250px;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-bottom: 22px;
+}
+.section-title{
+    color: #1F384C;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: row;
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    text-align: center;
+}
+.truck{
+    width: 63px;
+    height: 63px;
+}
+.percentage{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    color: #80809C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tab-name{
+    color: #1F384C;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: row;
+}
+.tab-name input{
+    margin-left: 325px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    color: #504178;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+>>>>>>> Stashed changes
 }
