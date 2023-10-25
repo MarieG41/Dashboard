@@ -7,7 +7,9 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,7 +21,6 @@
                 <div class="search-bar">
                     <span class="material-symbols-outlined glass">search</span>
                     <input type="search" placeholder="search" class="nosubmit"> 
-                    
                 </div>
                <div class="notifications">
                     <span class="material-symbols-outlined lunch">lunch_dining</span>
@@ -27,53 +28,52 @@
                     <span class="material-symbols-outlined arrow">expand_more</span>
                     <span class="material-symbols-outlined bell">notifications</span>
                 </div>
-                
             </div>
         </nav>
     </header>
     <main>
         <nav class="side-bar">
             <div>
-                <p>MENU</p>
+                <p class="menu">MENU</p>
                 <div>
                     <img src="" alt="">
-                    <h3>Dashboard</h3>
+                    <h3 class="dashboard">Dashboard</h3>
                 </div>
+                <div class="order"> 
                     <span class="material-symbols-outlined">package</span>
                     <p>Order</p>
                     <span class="material-symbols-outlined">expand_more</span>
-                    <select name="order" id="order">
-                        <optgroup label="order">
-                            <option value=""></option>
-                            <option value=""></option>
-                        </optgroup>
-                    </select>
+                </div>  
+            </div>
+            <div class="menu-items">
+                <div class="report">
+                    <span class="material-symbols-outlined">bar_chart_4_bars</span>
+                    <a href="#">Report</a>
                 </div>
-            <div>
-                <span class="material-symbols-outlined">bar_chart_4_bars</span>
-                <a href="#">Report</a>
-                <span class="material-symbols-outlined">local_shipping</span>
-                <a href="#">Track</a>
-                <span class="material-symbols-outlined">construction</span>
-                <a href="#">Maintenance</a>
+                <div class="shipping">
+                    <span class="material-symbols-outlined">local_shipping</span>
+                    <a href="#">Track</a>
+                 </div>
+                 <div class="maintenance">
+                    <span class="material-symbols-outlined">construction</span>
+                    <a href="#">Maintenance</a>
+                 </div>
             </div>
-            <p>SYSTEM</p>
-            <div>
+                <p class="system">SYSTEM</p>
             </div>
-                <img src="" alt="">
-                <p>Master Data</p>
-                <span class="material-symbols-outlined">expand_more</span>
-                <select name="master" id="master">
-                    <optgroup label="Master Data">
-                        <option value=""></option>
-                        <option value=""></option>
-                    </optgroup>
-                </select>
-            </div>
-                <span   class="material-symbols-outlined">person</span>
-                <a href="#">User</a>
-                <span class="material-symbols-outlined">group</span>
-                <a href="#">Role</a>
+                <div class="data">
+                    <img src="" alt="">
+                    <p>Master Data</p>
+                    <span class="material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="user">
+                    <span class="material-symbols-outlined">person</span>
+                    <a href="#">User</a>
+                </div>
+                <div class="role">
+                    <span class="material-symbols-outlined">group</span>
+                    <a href="#">Role</a>
+                </div>
             </div>
         </nav>
         <section>
