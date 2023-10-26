@@ -1,42 +1,22 @@
 
 .nav-bar{
-<<<<<<< Updated upstream
-display: flex;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-padding: 10px;
-height: 64px;
-color: #1F384C;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 400; 
-=======
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 10px;
     height: 64px;
     color: #1F384C;
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
     font-weight: 400; 
-    background-color: white;
-    margin-bottom: 10px;
->>>>>>> Stashed changes
 }
-.nav-img img {
-    height: 36px;
-    margin-left: 10px;
-}
-nav-img{
-    display: flex;
-    width: 240px;
-    box-sizing: border-box;
+.nav-img{
+    height: 48px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 220px;
+    background-color: #FFF;
 }
 .nav-bar input{
     margin: 0 32px;
@@ -59,7 +39,7 @@ nav-img{
 }
 .notifications{
     display: flex;
-    margin-left: 450px;
+    margin-left: 375px;
 }
 .lunch{
     background-color: #ffcccc;
@@ -82,22 +62,13 @@ nav-img{
     margin-top: 4px;
 }
 .side-bar {
-<<<<<<< Updated upstream
-    width: 64px;
-    height: 450px;
-    background-color: darkgray;
-}
-main {
-    margin-top: 120px;
-=======
     width: 240px;
     height: 1486px;
     background-color: #0100390A;
     font-family: Poppins;
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
-    position: relative;
+    position: absolute;
 }
 .menu{
     color: #082431;
@@ -216,12 +187,20 @@ main{
     position: absolute;
     top: 120px;
     left: 40px;
+    margin-top: 120px;
+    width: 240px;
+    height: 1486px;
+    background-color: #0100390A;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    position: relative;
 }
 .section{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     margin-bottom: 22px;
 }
 .section-title{
@@ -283,5 +262,4 @@ main{
     font-style: normal;
     font-weight: 600;
     line-height: 18px;
->>>>>>> Stashed changes
 }
