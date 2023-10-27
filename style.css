@@ -237,7 +237,7 @@ main{
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 23px;
     display: flex;
     flex-direction: row;
@@ -285,39 +285,76 @@ th{
     font-weight: 600;
     line-height: 12px;
 }
-.bar{
-    background-color: #504178;
+.graph{
     display: flex;
     flex-direction: column;
-    align-self: baseline;
+    margin-left: 29px;
+}
+.bar{
+    background-color: #504178;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    margin-bottom: 345px;
 }
 .bar-jan{
-    margin-left: 25px;
+    margin-left: 32px;
     width: 20px;
-    height: 296px; 
+    height: 296px;
 }
 .bar-feb{
     width: 20px;
     height: 190px;
-    margin-left: 25px;
+    margin-left: 83px;
 }
 .bar-mar{
     width: 20px;
     height: 240px;
-    margin-left: 25px;
+    margin-left: 135px;
 }
 .bar-apr{
     width: 20px;
     height: 106px;
-    margin-left: 25px;
+    margin-left: 184px;
 }
 .bar-may{
     width: 20px;
     height: 190px;
-    margin-left: 25px;
+    margin-left: 235px;
 }
 .bar-jun{
     width: 20px;
     height: 268px;
-    margin-left: 25px;
+    margin-left: 288px;
+}
+.bar-jul{
+    width: 20px;
+    height: 154px;
+    margin-left: 335px;
+}
+.bar-aug{
+    width: 20px;
+    height: 332px;
+    margin-left: 385px;
+}
+.bar-sep{
+    width: 20px;
+    height: 268px;
+    margin-left: 437px;
+}
+.bar-oct{
+    width: 20px;
+    height: 210px;
+    margin-left: 488px;
+}
+.bar-nov{
+    width: 20px;
+    height: 308px;
+    margin-left: 540px;
+}
+.bar-dec{
+    width: 20px;
+    height: 258px;
+    margin-left: 592px;
 }
