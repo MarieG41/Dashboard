@@ -113,7 +113,6 @@
                     <p>Total Customer</p>
                 </div>
             </div>
-        </div>
                 <div class="tab-name">
                     <h2>Statistik Pemesanan</h2>
                     <input type="date" name="date" id="date">
@@ -165,7 +164,7 @@
                         </tr>
                     </tfoot>
                 </table>
-                <div class="tab-name">
+                <div class="tab-name customers">
                     <h2>Customer Pemesan Terbanyak</h2>
                 </div>
                     <table class="list">
@@ -201,10 +200,15 @@
                 
             </div>
             <section>
-                <h2>Overview Pemesanan</h2>
+                <div class="tab-name tab-title">
+                    <h2>Overview Pemesanan</h2>
+                        <div class="tab-input">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                </div>
                 <table>
                     <thead>
-                        <tr>
+                        <tr class="table-head">
                             <th>No</th>
                             <th>Nama Customer</th>
                             <th>Jenis</th>
@@ -212,49 +216,49 @@
                             <th>Tanggal Pengiriman</th>
                         </tr>
                     </thead>
-                        <tr>
+                        <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                    <tr>
+                         <tr class="table-body">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
-                    </tr>
-                    <tr>
+                            </tr>
+                         <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr>
+                        <tr class="table-body">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
-                    </tr>
-                        <tr>
+                        </tr>
+                        <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr>
+                        <tr class="table-body">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
-                    </tr>
-                        <tr>
+                        </tr>
+                        <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
@@ -264,7 +268,7 @@
                 </table>
     </main>
     <footer>
-
+        
     </footer>
     
 </body>

@@ -278,7 +278,6 @@ main{
 }
 th{
     margin-bottom: 25px;
-    margin-left: 0;
     color: #939393;
     font-family: Poppins;
     font-style: normal;
@@ -296,7 +295,7 @@ th{
     display: flex;
     flex-direction: row;
     bottom: 0;
-    margin-bottom: 345px;
+    margin-bottom: 390px;
 }
 .bar-jan{
     margin-left: 32px;
@@ -357,4 +356,79 @@ th{
     width: 20px;
     height: 258px;
     margin-left: 592px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 240px;
+    left: 750px;
+}
+.customers{
+    position: absolute;
+    left: 750px;
+    top: 200px
+}
+.list th{
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #273240;
+    display: flex;
+    padding-bottom: 14px;
+}
+.list tbody{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 300px;
+}
+.table-head{
+    border-radius: 6px;
+    background: #F3F6F9;
+    width: 1067px;
+    height: 43px;
+    
+}
+.list td{
+    color: #273240;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    opacity: 0.7;
+    display: flex;
+    padding-bottom: 14px;
+}
+.tab-title{
+    margin-bottom: 28px;
+    margin-left: 40px;
+}
+.tab-input{
+    width: 198px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F6F8FA;
+}
+.tab-input input{
+    color: #B0B0B0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 19px;
+}
+.table-head th{
+    padding-left: 80px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.table-body td{
+    padding-left: 80px;
+    padding-bottom: 10px;
+    text-align: center;
 }
