@@ -194,7 +194,7 @@ main{
 .section{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 22px;
 }
 .section-title{
@@ -206,31 +206,50 @@ main{
     line-height: 23px;
     margin-bottom: 31px;
     display: flex;
-    flex-direction: row;
 }
 .percent{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 33px;
-    text-align: center;
+}
+.percent h2{
+    color: #1F384C;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+.percentage{
+    color: #149D52;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    display: flex;
+}
+.percentage p{
+    margin-top: 10px;
 }
 .truck{
     width: 63px;
     height: 63px;
-}
-.percentage{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .name{
     display: flex;
-    flex-direction: column;
     color: #80809C;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+.percent-name{
+    display: flex;
+    flex-direction: column-reverse;
 }
 .tab-name{
     color: #1F384C;
@@ -295,7 +314,7 @@ th{
     display: flex;
     flex-direction: row;
     bottom: 0;
-    margin-bottom: 390px;
+    margin-bottom: 420px;
 }
 .bar-jan{
     margin-left: 32px;
@@ -410,6 +429,7 @@ th{
 .tab-input{
     width: 198px;
     height: 50px;
+    margin-left: 130px;
     border-radius: 10px;
     background: #F6F8FA;
 }
@@ -431,4 +451,7 @@ th{
     padding-left: 80px;
     padding-bottom: 10px;
     text-align: center;
+}
+footer{
+    height: 200px;
 }
