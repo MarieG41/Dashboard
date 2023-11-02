@@ -81,39 +81,50 @@
             </div>
                 <div class="section">
                     <div class="percent">
-                        <span class="material-symbols-outlined truck">local_shipping</span>
+                        <div class="truck">
+                             <span class="material-symbols-outlined">local_shipping</span>
+                        </div>
                         <h2>2.409</h2>
                         <div class="percentage">
                             <span class="material-symbols-outlined">straight</span>
                             <p>2.1%</p>
+                        </div>
+                        <div class="name">
+                            <div class="percent-name">
+                               <p>Jumlah Pemesan</p> 
+                            </div>
+                        </div>
                     </div>
-                    <div class="name">
-                        <p>Jumlah Pemesan</p>
+                    <div class="percent">
+                        <span class="material-symbols-outlined truck">local_shipping</span>
+                        <h2>68,9%</h2>
+                        <div class="name">
+                            <div class="percent-name">
+                              <p>Pesanan Selesai</p>  
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="percent">
-                    <span class="material-symbols-outlined truck">local_shipping</span>
-                    <h2>68,9%</h2>
-                </div>
-                <div class="name">
-                    <p>Pesanan Selesai</p>
-                </div>
-                <div class="percent">
-                    <span class="material-symbols-outlined truck">local_shipping</span>
-                    <h2>689%</h2>
-                    <div class="name">
-                        <p>KPI Driver</p>
+                    <div class="percent">
+                        <span class="material-symbols-outlined truck">local_shipping</span>
+                        <h2>689%</h2>
+                        <div class="name">
+                            <div class="percent-name">
+                                <p>KPI Driver</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="percent">
-                    <span class="material-symbols-outlined truck">local_shipping</span>
-                    <h2>3.509</h2>
-                </div>
-                <div class="name">
-                    <p>Total Customer</p>
+                    <div class="percent">
+                        <span class="material-symbols-outlined truck">local_shipping</span>
+                        <h2>3.509</h2>
+                        <div class="name">
+                            <div class="percent-name">
+                                <p>Total Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
                 <div class="tab-name">
                     <h2>Statistik Pemesanan</h2>
                     <input type="date" name="date" id="date">
@@ -134,16 +145,9 @@
                         </tr>  
                     </thead>
                     <tbody class="graph">
-                        <tr>
                             <td class="bar bar-jan"></td>
-                        </tr>
-                        <tr>
                             <td class="bar bar-feb"></td>
-                        </tr>
-                        <tr>
                             <td class="bar bar-mar"></td>
-                        </tr>
-                           
                             <td class="bar bar-apr"></td>
                             <td class="bar bar-may"></td>
                             <td class="bar bar-jun"></td>
@@ -157,7 +161,7 @@
                     </tbody>
                     <tfoot>
                         <tr class="x-axe">
-                            <th class="jan">Jan</th>
+                            <th>Jan</th>
                             <th>Feb</th>
                             <th>Mar</th>
                             <th>Apr</th>
@@ -172,20 +176,51 @@
                         </tr>
                     </tfoot>
                 </table>
-                <div class="tab-name">
+                <div class="tab-name customers">
                     <h2>Customer Pemesan Terbanyak</h2>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
                 </div>
+                    <table class="list">
+                        <thead>
+                            <th>PT Javan Cipta Solusi</th>
+                            <th>CV ABCD</th>
+                            <th>CV OQURY TRESNA ANJANI</th>
+                            <th>PT Javan Solusi</th>
+                            <th>PT Insan Cipta Solusi</th>
+                            <th>PT Mitra Informatika</th>
+                            <th>PT Gamatechno Indonesia</th>
+                            <th>Patra Jasa</th>
+                            <th>Patra Arun Badak</th>
+                            <th>Pertamina Corporate University</th>
+                            <th>Pertamina RU IV</th>
+                            <th>PT Pertamina Kilang Balikpapan</th>
+                        </thead>
+                        <tbody>
+                            <td>450</td>
+                            <td>499</td>
+                            <td>443</td>
+                            <td>441</td>
+                            <td>420</td>
+                            <td>412</td>
+                            <td>411</td>
+                            <td>390</td>
+                            <td>387</td>
+                            <td>376</td>
+                            <td>361</td>
+                            <td>355</td>
+                        </tbody>
+                    </table>
+                
             </div>
             <section>
-                <h2>Overview Pemesanan</h2>
+                <div class="tab-name tab-title">
+                    <h2>Overview Pemesanan</h2>
+                        <div class="tab-input">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                </div>
                 <table>
                     <thead>
-                        <tr>
+                        <tr class="table-head">
                             <th>No</th>
                             <th>Nama Customer</th>
                             <th>Jenis</th>
@@ -193,49 +228,49 @@
                             <th>Tanggal Pengiriman</th>
                         </tr>
                     </thead>
-                        <tr>
+                        <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                    <tr>
+                         <tr class="table-body">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
-                    </tr>
-                    <tr>
+                            </tr>
+                         <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr>
+                        <tr class="table-body">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
-                    </tr>
-                        <tr>
+                        </tr>
+                        <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr>
+                        <tr class="table-body">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
-                    </tr>
-                        <tr>
+                        </tr>
+                        <tr class="table-body">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
@@ -245,7 +280,7 @@
                 </table>
     </main>
     <footer>
-
+        
     </footer>
     
 </body>
