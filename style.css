@@ -78,17 +78,28 @@
     margin-top: 32px;
     margin-bottom: 26px;
 }
-.dashboard{
+.menu-dashboard{
+    display: flex;
+    align-items: center;
     font-size: 16px; 
     font-weight: 500;
     background-color: #50417833;
     border-radius: 10px;
     width: 174px;
     height: 40px;
-    padding-top: 25px; 
     text-align: center;
     color: #504178;
     margin-left: 24px;
+    padding: 7px 0;
+}
+.dashboard{
+  padding-left: 12px;
+}
+.dashboard-icon{
+    width: 24px;
+    height: 24px;
+    color: #504178;
+    padding-left: 16px;
 }
 .order{
     margin-top: 24px;
@@ -103,7 +114,7 @@
 }
 .order p{
     margin-left: 12px;
-    margin-right: 12px;
+    margin-right: 70px;
 }
 .menu-items{
     display: flex;
@@ -219,6 +230,7 @@ main{
     font-style: normal;
     font-weight: 600;
     line-height: 27px;
+    margin-left: 18px;
 }
 .percentage{
     color: #149D52;
@@ -233,10 +245,47 @@ main{
     margin-top: 10px;
 }
 .truck{
-    width: 63px;
-    height: 63px;
+    color: white;
+}
+.truck-1{
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 63px;
+    background: linear-gradient(135deg, #504178 0%, #FF7B8A 100%);
+}
+.truck-2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 63px;
+    background: linear-gradient(135deg, #42BA17 0%, #9FF182 100%); 
+}
+.truck-3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 63px;
+    background: linear-gradient(135deg, #5A6ACF 0%, #FF7B8A 100%);
+}
+.truck-4{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 63px;
+    background: linear-gradient(135deg, #D32136 0%, #FF7B8A 100%);
 }
 .name{
     display: flex;
@@ -429,11 +478,8 @@ th{
 .tab-input{
     width: 198px;
     height: 50px;
-    margin-left: 130px;
-    border-radius: 10px;
-    background: #F6F8FA;
 }
-.tab-input input{
+#searching-bar{
     color: #B0B0B0;
     font-family: Poppins;
     font-size: 16px;
@@ -441,14 +487,18 @@ th{
     font-weight: 400;
     line-height: 24px;
     padding-left: 19px;
+    border-radius: 10px;
+    margin-left: 550px;
+    background: #F6F8FA;
 }
 .table-head th{
     padding-left: 80px;
-    margin-top: 28px;
-    margin-bottom: 28px;
+    padding-top: 12px;
+    padding-right: 30px;
 }
 .table-body td{
-    padding-left: 80px;
+    padding-left: 5%;
+    padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
 }
