@@ -1,4 +1,6 @@
-
+body{
+    background-color: #F6F8FA;
+}
 .nav-bar{
     display: flex;
     position: fixed;
@@ -9,7 +11,8 @@
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
-    font-weight: 400; 
+    font-weight: 400;
+    background-color: white;
 }
 .nav-img{
     height: 48px;
@@ -42,7 +45,7 @@
     margin-left: 375px;
 }
 .lunch{
-    background-color: #ffcccc;
+    background-color: #FFE6CC;
     border-radius: 20px;
     width: 25px;
     height: 25px;
@@ -63,7 +66,7 @@
 }
 .side-bar {
     width: 240px;
-    height: 800px;
+    height: 1400px;
     background-color: #0100390A;
     font-family: Poppins;
     display: flex;
@@ -202,12 +205,6 @@ main{
     flex-direction: column;
     position: relative;
 }
-.section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 22px;
-}
 .section-title{
     color: #1F384C;
     font-family: Poppins;
@@ -218,10 +215,20 @@ main{
     margin-bottom: 31px;
     display: flex;
 }
-.percent{
+.section{
     display: flex;
     flex-direction: row;
-    margin-left: 33px;
+    margin-bottom: 22px;
+}
+.percent{
+    display: flex;
+    margin-right: 33px;
+    background-color: white;
+    padding: 24px 0 24px 24px;
+    border-radius: 10px;
+    width: 233px;
+    height: 62px;
+    flex-wrap: wrap;
 }
 .percent h2{
     color: #1F384C;
@@ -231,18 +238,38 @@ main{
     font-weight: 600;
     line-height: 27px;
     margin-left: 18px;
+    height: 27px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 0;
+    position: absolute;
+    top: 110px;
+}
+.percent p{
+    color: #80809C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 .percentage{
-    color: #149D52;
     font-family: Poppins;
-    font-size: 12px;
     font-style: normal;
-    font-weight: 600;
+    color: #149D52;
+    font-size: 12px;
     line-height: 12px;
     display: flex;
 }
 .percentage p{
-    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #149D52;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0;
 }
 .truck{
     color: white;
@@ -300,15 +327,22 @@ main{
     display: flex;
     flex-direction: column-reverse;
 }
+.histogram-tab{
+    width: 1127px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
 .tab-name{
     color: #1F384C;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 23px;
     display: flex;
     flex-direction: row;
+    padding-top: 24px;
+    padding-left: 25px;
 }
 .tab-name input{
     margin-left: 325px;
@@ -329,12 +363,12 @@ main{
     align-items: start;
     margin-top: 12px;
     margin-left: 30px;
-    margin-bottom: 92px;
 }
 .y-axe{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 25px;
 }
 .x-axe th{
     padding-left: 29px;
@@ -363,7 +397,7 @@ th{
     display: flex;
     flex-direction: row;
     bottom: 0;
-    margin-bottom: 420px;
+    margin-bottom: 605px;
 }
 .bar-jan{
     margin-left: 32px;
@@ -434,8 +468,12 @@ th{
 }
 .customers{
     position: absolute;
-    left: 750px;
-    top: 200px
+    left: 720px;
+    top: 190px;
+    bottom: 20px;
+}
+.list{
+    margin-top: 30px;
 }
 .list th{
     font-family: Poppins;
@@ -457,8 +495,7 @@ th{
     border-radius: 6px;
     background: #F3F6F9;
     width: 1067px;
-    height: 43px;
-    
+    height: 43px; 
 }
 .list td{
     color: #273240;
@@ -471,9 +508,16 @@ th{
     display: flex;
     padding-bottom: 14px;
 }
+.simple-table{
+    background-color: white;
+    border-radius: 10px;
+    width: 1100px;
+    margin-top: 40px;
+    padding: 0 0 30px 30px;
+}
 .tab-title{
     margin-bottom: 28px;
-    margin-left: 40px;
+    padding-left: 0;
 }
 .tab-input{
     width: 198px;
@@ -488,20 +532,29 @@ th{
     line-height: 24px;
     padding-left: 19px;
     border-radius: 10px;
-    margin-left: 550px;
+    margin-left: 640px;
     background: #F6F8FA;
+    border: none;
 }
 .table-head th{
-    padding-left: 80px;
+    padding-left: 95px;
     padding-top: 12px;
     padding-right: 30px;
+    text-align: center;
+    color: #464E5F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
 }
 .table-body td{
-    padding-left: 5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
+    padding: 15px 0 15px 60px;
+}
+.grey{
+    background: rgba(243, 246, 249, 0.50);
 }
 footer{
-    height: 200px;
+    height: 50px;
 }

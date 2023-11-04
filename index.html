@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
@@ -19,7 +22,6 @@
                 <div class="search-bar">
                     <span class="material-symbols-outlined glass">search</span>
                     <input type="search" placeholder="search" class="nosubmit"> 
-                    
                 </div>
                <div class="notifications">
                     <span class="material-symbols-outlined lunch">lunch_dining</span>
@@ -81,50 +83,41 @@
             </div>
                 <div class="section">
                     <div class="percent">
-                        <div class="truck">
-                             <span class="material-symbols-outlined truck-1">local_shipping</span>
-                        </div>
-                        <h2>2.409</h2>
+                             <span class="material-symbols-outlined truck truck-1">local_shipping</span>
+                            <h2>2.409</h2>
                         <div class="percentage">
                             <span class="material-symbols-outlined">straight</span>
                             <p>2.1%</p>
                         </div>
                         <div class="name">
-                            <div class="percent-name">
-                               <p>Jumlah Pemesan</p> 
-                            </div>
-                        </div>
+                           <p>Jumlah Pemesan</p>  
+                        </div>  
                     </div>
                     <div class="percent">
                         <span class="material-symbols-outlined truck truck-2">local_shipping</span>
                         <h2>68,9%</h2>
                         <div class="name">
-                            <div class="percent-name">
-                              <p>Pesanan Selesai</p>  
-                            </div>
+                           <p>Pesanan Selesai</p>  
                         </div>
                     </div>
                     <div class="percent">
                         <span class="material-symbols-outlined truck truck-3">local_shipping</span>
                         <h2>68,9%</h2>
                         <div class="name">
-                            <div class="percent-name">
-                                <p>KPI Driver</p>
-                            </div>
+                            <p>KPI Driver</p>
                         </div>
                     </div>
                     <div class="percent">
                         <span class="material-symbols-outlined truck truck-4">local_shipping</span>
                         <h2>3.509</h2>
                         <div class="name">
-                            <div class="percent-name">
-                                <p>Total Customer</p>
-                            </div>
+                            <p>Total Customer</p>
                         </div>
                     </div>
                     
                 </div>
             </div>
+            <div class="histogram-tab">
                 <div class="tab-name">
                     <h2>Statistik Pemesanan</h2>
                     <input type="date" name="date" id="date">
@@ -209,9 +202,9 @@
                             <td>355</td>
                         </tbody>
                     </table>
-                
-            </div>
-            <section>
+                </div>
+            </div>   
+            <section class="simple-table">
                 <div class="tab-name tab-title">
                     <h2>Overview Pemesanan</h2>
                         <div class="tab-input">
@@ -235,7 +228,7 @@
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                         <tr class="table-body">
+                         <tr class="table-body grey">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
@@ -249,7 +242,7 @@
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr class="table-body">
+                        <tr class="table-body grey">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
@@ -263,14 +256,14 @@
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr class="table-body">
+                        <tr class="table-body grey">
                             <td>2</td>
                             <td>Jessie Clarcson</td>
                             <td>Turbo</td>
                             <td>2000 Liter</td>
                             <td>21 Desember 2021</td>
                         </tr>
-                        <tr class="table-body">
+                        <tr class="table-body grey">
                             <td>1</td>
                             <td>Brad Simmons</td>
                             <td>Pertamax</td>
@@ -278,6 +271,7 @@
                             <td>21 Desember 2021</td>
                         </tr>
                 </table>
+            </section>
     </main>
     <footer>
         
